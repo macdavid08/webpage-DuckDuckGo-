@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+a:hover {
+    color: white;
+
+}
+
+body {
+    width: 100%;
+    background-color: rgb(27, 23, 23);
+    position: absolute;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+}
+
+.header ul {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.header ul li {
+    margin: 5px;
+}
+.header ul li a {
+    color: white;
+    cursor: pointer;
+}
+.header ul li.icon {
+    color: white;
+
+}
+
+.list, .icons i {
+    font-size: 20px;
+}
+
+
+
+.body {
+    position: relative;
+    margin-top: 70px;
+    width: 80%;
+    left: 50px;
+
+}
+
+.body .duck  {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 30px;
+    left: 570px;
+    border: solid 3px white;
+    border-radius: 50%;
+
+}
+
+.body .search {
+    position: absolute;
+    right: 188px;
+    top: 179px;
+    background-color: transparent;
+    border: none;
+    color: rgb(252, 242, 242);
+    cursor: pointer;
+}
+.body .search i {
+    font-size: 30px;
+    font-weight: 100;
+}
+.search a {
+    color: white;
+}
+
+.body h1 {
+    position: absolute;
+    font-size: 40px;
+    top: 120px;
+    left: 490px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    position: absolute;
+    width: 45%;
+    height: 17px;
+    padding: 5px;
+    top: 175px;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    left: 370px;
+}
+
+input[type = 'text'] {
+    border: none;
+    padding: 10px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+
+.dis {
+    visibility: hidden;
+    position: absolute;
+    right: 85px;
+    top: 40px;
+}
+
+
+.new {
+    visibility: hidden;
+    position: absolute;
+    right: 33px;
+    top: 40px;
+}
+
+
+.dis ul, .new ul{
+    display: flex ;
+    flex-direction: column;
+}
+
+.duck img, .down img{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+
+
+.lang {
+    position: absolute;
+    top: 240px;
+    left: 480px;
+}
+
+
+.lang  p {
+    color: white;
+    font-size: 12px;
+}
+
+
+
+.footer {
+    width: 100%;
+    position: relative;
+    top:450px;
+}
+
+.down {
+    position: absolute;
+    left: 650px;
+    background-color: rgb(56, 56, 56);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.down i {
+    margin-top: 6px;
+    margin-left: 8px;
+    color: white;
+    font-size: 17px;
+}
+.down a {
+    color: white;
+}
+
